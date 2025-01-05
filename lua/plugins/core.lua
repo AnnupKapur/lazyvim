@@ -1,24 +1,24 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+    -- add gruvbox
+    { "ellisonleao/gruvbox.nvim" },
 
-  -- nordic colorscheme
-  { "AlexvZyl/nordic.nvim" },
+    -- nordic colorscheme
+    { "AlexvZyl/nordic.nvim" },
 
-  -- poimandres colorscheme
-  { "olivercederborg/poimandres.nvim" },
+    -- poimandres colorscheme
+    { "olivercederborg/poimandres.nvim" },
 
-  -- noclownfiesta colorscheme
-  { "aktersnurra/no-clown-fiesta.nvim" },
+    -- noclownfiesta colorscheme
+    { "aktersnurra/no-clown-fiesta.nvim" },
 
-  -- lackluster colorscheme
-  { "slugbyte/lackluster.nvim" },
+    -- lackluster colorscheme
+    { "slugbyte/lackluster.nvim" },
 
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "no-clown-fiesta",
+    -- Configure LazyVim to load gruvbox
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "lackluster",
+        },
     },
-  },
 }
