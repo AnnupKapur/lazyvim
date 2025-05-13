@@ -14,11 +14,19 @@ return {
   -- lackluster colorscheme
   { "slugbyte/lackluster.nvim" },
 
+  { "ficcdaf/ashen.nvim" },
+
+  { "kvrohit/rasmus.nvim" },
+
+  { "kdheepak/monochrome.nvim" },
+
+  { "kvrohit/substrata.nvim" },
+
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "no-clown-fiesta",
+      colorscheme = "substrata",
     },
   },
 }
